@@ -1,4 +1,4 @@
-##                         MACHINE LEARNING FROM BEGINING
+##                         MACHINE LEARNING FROM BEGINING ##
 -------------------------------------------
 DAY       |              WORK DONE         |
 -------------------------------------------
