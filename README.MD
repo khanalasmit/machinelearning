@@ -1,6 +1,5 @@
-##                         MACHINE LEARNING FROM BEGINING ##
--------------------------------------------
-DAY       |              WORK DONE         |
--------------------------------------------
-1         |TESNOR DETAIL                   |
--------------------------------------------
+## Machine Learning from Beginning ##
+
+| Day | Work Done          |
+|-----|--------------------|
+| 1   | Tensor Details     |
