@@ -1,2 +1,6 @@
-###                          MACHINE LEARNING FROM BEGINING
-<br>
+##                         MACHINE LEARNING FROM BEGINING
+-------------------------------------------
+DAY       |              WORK DONE         |
+-------------------------------------------
+1         |TESNOR DETAIL                   |
+-------------------------------------------
