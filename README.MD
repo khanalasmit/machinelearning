@@ -1,6 +1,6 @@
 ## Machine Learning from Beginning ##
 
-| Day | Work Done          | DETAILS |
+| <b>Day</b> |<b> Work Done </b>         | <b>DETAILS</b> |
 |-----|--------------------|---------|
 | 1   | Tensor Details     | INFO ABOUT 0D, 1D, 2D.... TENSORS |
 | 2   | Working with csv file | Csv file (comma separated values). Worked with CSV files using both pandas and Python's csv module. |
