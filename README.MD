@@ -8,3 +8,5 @@
 | **4**   | Worked on API (Application Programming Interface) | Fetched data from APIs and formatted the responses into **DataFrames** using Pandas.                                                                |
 | **5**   | Web Scraping and BeautifulSoup   | Used **Selenium** for web automation and scraping. Created a bot that:<br>1. Navigates to YouTube<br>2. Opens a specific channel<br>3. Scrolls down<br>4. Extracts all video descriptions into a DataFrame. |
 | **6** | UNIVARIENT ANALYSIS | Done the univareint analysis in the **`advertisment.csv`** data |
+| **7**| MULTIVARIENT ANALYSIS| Multivarient analysis on <br>1. **`flight dataset`** <br>2. **`tips dataset`** <br>3. **`iris dataset`**|
+
