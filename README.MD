@@ -1,9 +1,10 @@
-## Machine Learning from Beginning ##
+## 📘 Machine Learning from Beginning ##
 
-| <b>Day</b> |<b> Work Done </b>         | <b>DETAILS</b> |
-|-----|--------------------|---------|
-| **1**   | Tensor Details     | INFO ABOUT 0D, 1D, 2D.... TENSORS |
-| **2**   | Working with csv file | Csv file (comma separated values). Worked with CSV files using both pandas and Python's csv module. |
-| **3**   | Working with json files | Worked with JSON files and documents. |
-| **4**   | Worked on API (Application Programming Interface) | Fetched data from an API and formatted it into proper DataFrames. |
-| **5**   | Web Scraping and BeautifulSoup | Web scraping using Selenium: Automated bot to:<br>1. Go to YouTube →<br>2. Navigate to a specific channel →<br>3. Scroll to the bottom →<br>4. Store all video descriptions in a DataFrame. |
+| **Day** | **Work Done**                     | **Details**                                                                                                                                         |
+|--------:|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1**   | Tensor Details                   | Learned about different types of tensors: 0D, 1D, 2D, etc.                                                                                           |
+| **2**   | Working with CSV Files           | Explored CSV (Comma Separated Values) files using both **Pandas** and Python's built-in **`csv`** module.                                          |
+| **3**   | Working with JSON Files          | Worked with JSON (JavaScript Object Notation) files: reading, writing, and parsing structured data.                                                |
+| **4**   | Worked on API (Application Programming Interface) | Fetched data from APIs and formatted the responses into **DataFrames** using Pandas.                                                                |
+| **5**   | Web Scraping and BeautifulSoup   | Used **Selenium** for web automation and scraping. Created a bot that:<br>1. Navigates to YouTube<br>2. Opens a specific channel<br>3. Scrolls down<br>4. Extracts all video descriptions into a DataFrame. |
+
