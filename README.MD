@@ -11,4 +11,4 @@
 | **7**| MULTIVARIENT ANALYSIS| Multivarient analysis on <br>1. **`flight dataset`** <br>2. **`tips dataset`** <br>3. **`iris dataset`**|
 | **8**| FEATURE STANDRADIZATION | <br> 1. Introduction of the feature engineering <br> 2. Componentes of the feature engineering <br> 3. Detail of the feature scaling <br> 4. Feature Standradization <br> 5. Z-score noramalization of **`adverstisment.csv`** <br>6. Min max scaling |
 |**9**| FEATURE ENCODING (CONTINUE OF FEATURE ENGINEERING)|<br> 1. Encoding and its defination <br> 2. Types of encoding <br>3. Ordinal Encoding <br>4. Label encoding <br> All the works were done on **`Student_performance_10k.csv`**| |
-|**10**| ONEHOTENCODING| Deatails of the one hot encoding. OnehotEncoding using <br> 1.**`pd.get_dummies()`** <br>2. **`pd.get_dummies(dropfirst=True)`** <br>3. **`sklearn.preprocessing.OneHotEncoder()`**|    
+|**10**| ONEHOTENCODING| Deatails of the one hot encoding. OnehotEncoding using <br> 1.```pd.get_dummies()```<br>2. ```pd.get_dummies(dropfirst=True)``` <br>3. ```sklearn.preprocessing.OneHotEncoder()```|    
