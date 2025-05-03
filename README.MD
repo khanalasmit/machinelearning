@@ -15,5 +15,6 @@
 |**11**| COLUMN TRANSFOMER|A way of putting all the preprocessing tasks such as encoding, imputation and other tasks in a single transformer. code is like this:<br> ```from sklearn.compose import ```<br>```ColumnTransformertransformer=ColumnTransformer(transformers=[],reminder=(column to be left after the transfomation where we can mostly use the keyword 'passthrough' ))```<br>```transformer.fit_transform()```|
 |**12**| SklearnPipelines| First fitted the decision tree classifier on the titanic dataset which had missing and the non numeric categorical variables. Thus the imputation was done then the encoding.<br> After that sklearn pipelines was used for the series of the imputation, encoding and fitting the model| 
 |**13**| Function transfomer| Used the log tranformation on the data to see the impact of the transformation on distributiona and the machine learning models|
+|**14**| Power transfomer| Used the box-cox and yeo-jhoson tranform which are used to make the distributions gaussian|
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
