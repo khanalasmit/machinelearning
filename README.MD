@@ -17,5 +17,6 @@
 |**13**| Function transfomer| Used the log tranformation on the data to see the impact of the transformation on distributiona and the machine learning models|
 |**14**| Power transfomer| Used the box-cox and yeo-jhoson tranform which are used to make the distributions gaussian|
 |**15**| BINNING AND BINARIZATION| Descrition and types of binning. Did the binning and binarization titatnic dataset but it is not the best example to work with so it is not fully reliable example|
+|**16**| HANDELLING MIXED DATA| Columns with the numerica and non numric values and a single data with both numbers and strings|
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
