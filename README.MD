@@ -16,5 +16,6 @@
 |**12**| SklearnPipelines| First fitted the decision tree classifier on the titanic dataset which had missing and the non numeric categorical variables. Thus the imputation was done then the encoding.<br> After that sklearn pipelines was used for the series of the imputation, encoding and fitting the model| 
 |**13**| Function transfomer| Used the log tranformation on the data to see the impact of the transformation on distributiona and the machine learning models|
 |**14**| Power transfomer| Used the box-cox and yeo-jhoson tranform which are used to make the distributions gaussian|
+|**15**| BINNING AND BINARIZATION| Descrition and types of binning. Did the binning and binarization titatnic dataset but it is not the best example to work with so it is not fully reliable example|
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
