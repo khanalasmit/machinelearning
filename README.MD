@@ -19,6 +19,6 @@
 |**15**| BINNING AND BINARIZATION| Description and types of binning. Did the binning and binarization titatnic dataset but it is not the best example to work with so it is not fully reliable example|
 |**16**| HANDELLING MIXED DATA| Columns with the numericaL and non numric values and a single data with both numbers and strings|
 |**17**| HANDELLING DATES|```pd.to_datetime()``` can be used to convert objects to datetime which helps to extract the year, month , days and other extraction|
-|**18**| HANDELLING MISSING DATAS|1. Description of the ways of handelling missing datas<br> 2. Handelling catergorical missing datas|
+|**18**| HANDELLING MISSING DATAS|1. Description of the ways of handelling missing datas<br> 2. Handelling catergorical missing datas <br> 3.Using scikit learn for the imputation <br>4. Arbitaary Imputation <br>5. End of distribution imputation. |
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
