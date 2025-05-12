@@ -22,5 +22,6 @@
 |**18**| HANDELLING MISSING DATAS|1. Description of the ways of handelling missing datas<br> 2. Handelling catergorical missing datas <br> 3.Using scikit learn for the imputation <br>4. Arbitaary Imputation <br>5. End of distribution imputation. |
 |**19**| RANDOM IMPUTATION|Random impuation using pandas where missing values are imputed with randomly selected values from the data. Use of the missing indicator and evalution of its impact in the machinelearing model. |
 |**20**| AUTOMATIC PARAMTER PARAMETERS FOR  IMPUTATION|Use of the gird search cross validation for the best imputing startegies. |
+|**21**| MULTIVARINET IMPUTATION|1. Use of the knn imputer for the miultivareint impuatation with the detail and code example of the knn impuatation. |
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
