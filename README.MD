@@ -23,5 +23,6 @@
 |**19**| RANDOM IMPUTATION|Random impuation using pandas where missing values are imputed with randomly selected values from the data. Use of the missing indicator and evalution of its impact in the machinelearing model. |
 |**20**| AUTOMATIC PARAMTER PARAMETERS FOR  IMPUTATION|Use of the gird search cross validation for the best imputing startegies. |
 |**21**| MULTIVARINET IMPUTATION|1. Use of the knn imputer for the miultivareint impuatation with the detail and code example of the knn impuatation.<br>2. Iterative imputation and its detail in the ```iterative_impuatation.ipynb``` notebook |
+|**22**| OUTLIERS DETECTION|Defination of outliers detection and description of the outliers' impact for machinlearning algorithm. Techniques are to be discussed in other files with the code example. |
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
