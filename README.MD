@@ -1,5 +1,29 @@
-## Machine Learning from Beginning ##
+## 📘 Machine Learning from Beginning ##
 
-| Day | Work Done          | DETAILS |
-|-----|--------------------|---------|
-| 1   | Tensor Details     |INFO ABOUT 0D, 1D,2D.... TESNORS|
+| **SN** | **Work Done**                     | **Details**                                                                                                                                         |
+|--------:|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1**   | Tensor Details                   | Learned about different types of tensors: 0D, 1D, 2D, etc.                                                                                           |
+| **2**   | Working with CSV Files           | Explored CSV (Comma Separated Values) files using both **Pandas** and Python's built-in **`csv`** module.                                          |
+| **3**   | Working with JSON Files          | Worked with JSON (JavaScript Object Notation) files: reading, writing, and parsing structured data.                                                |
+| **4**   | Worked on API (Application Programming Interface) | Fetched data from APIs and formatted the responses into **DataFrames** using Pandas.                                                                |
+| **5**   | Web Scraping and BeautifulSoup   | Used **Selenium** for web automation and scraping. Created a bot that:<br>1. Navigates to YouTube<br>2. Opens a specific channel<br>3. Scrolls down<br>4. Extracts all video descriptions into a DataFrame. |
+| **6** | UNIVARIENT ANALYSIS | Done the univareint analysis in the **`advertisment.csv`** data |
+| **7**| MULTIVARIENT ANALYSIS| Multivarient analysis on <br>1. **`flight dataset`** <br>2. **`tips dataset`** <br>3. **`iris dataset`**|
+| **8**| FEATURE STANDRADIZATION | <br> 1. Introduction of the feature engineering <br> 2. Componentes of the feature engineering <br> 3. Detail of the feature scaling <br> 4. Feature Standradization <br> 5. Z-score noramalization of **`adverstisment.csv`** <br>6. Min max scaling |
+|**9**| FEATURE ENCODING (CONTINUE OF FEATURE ENGINEERING)|<br> 1. Encoding and its defination <br> 2. Types of encoding <br>3. Ordinal Encoding <br>4. Label encoding <br> All the works were done on **`Student_performance_10k.csv`**| |
+|**10**| ONEHOTENCODING| Deatails of the one hot encoding. OnehotEncoding using <br> 1.```pd.get_dummies()```<br>2. ```pd.get_dummies(dropfirst=True)``` <br>3. ```sklearn.preprocessing.OneHotEncoder()```|    
+|**11**| COLUMN TRANSFOMER|A way of putting all the preprocessing tasks such as encoding, imputation and other tasks in a single transformer. code is like this:<br> ```from sklearn.compose import ```<br>```ColumnTransformertransformer=ColumnTransformer(transformers=[],reminder=(column to be left after the transfomation where we can mostly use the keyword 'passthrough' ))```<br>```transformer.fit_transform()```|
+|**12**| SklearnPipelines| First fitted the decision tree classifier on the titanic dataset which had missing and the non numeric categorical variables. Thus the imputation was done then the encoding.<br> After that sklearn pipelines was used for the series of the imputation, encoding and fitting the model| 
+|**13**| Function transfomer| Used the log tranformation on the data to see the impact of the transformation on distributiona and the machine learning models|
+|**14**| Power transfomer| Used the box-cox and yeo-jhoson tranform which are used to make the distributions gaussian|
+|**15**| BINNING AND BINARIZATION| Description and types of binning. Did the binning and binarization titatnic dataset but it is not the best example to work with so it is not fully reliable example|
+|**16**| HANDELLING MIXED DATA| Columns with the numericaL and non numric values and a single data with both numbers and strings|
+|**17**| HANDELLING DATES|```pd.to_datetime()``` can be used to convert objects to datetime which helps to extract the year, month , days and other extraction|
+|**18**| HANDELLING MISSING DATAS|1. Description of the ways of handelling missing datas<br> 2. Handelling catergorical missing datas <br> 3.Using scikit learn for the imputation <br>4. Arbitaary Imputation <br>5. End of distribution imputation. |
+|**19**| RANDOM IMPUTATION|Random impuation using pandas where missing values are imputed with randomly selected values from the data. Use of the missing indicator and evalution of its impact in the machinelearing model. |
+|**20**| AUTOMATIC PARAMTER PARAMETERS FOR  IMPUTATION|Use of the gird search cross validation for the best imputing startegies. |
+|**21**| MULTIVARINET IMPUTATION|1. Use of the knn imputer for the miultivareint impuatation with the detail and code example of the knn impuatation.<br>2. Iterative imputation and its detail in the ```iterative_impuatation.ipynb``` notebook |
+|**22**| OUTLIERS DETECTION|Defination of outliers detection and description of the outliers' impact for machinlearning algorithm. Techniques are to be discussed in other files with the code example. |
+|**23(22)**| Z-SCORE METHOD|Defination and the descreption of the z-score method for the outliers detection. Use of the z-score method to find the outliers in the ```advertising.csv```.|
+<br>
+Note:pickle notebook is to open the models that are exported using the pickle
