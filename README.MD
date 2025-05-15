@@ -25,5 +25,6 @@
 |**21**| MULTIVARINET IMPUTATION|1. Use of the knn imputer for the miultivareint impuatation with the detail and code example of the knn impuatation.<br>2. Iterative imputation and its detail in the ```iterative_impuatation.ipynb``` notebook |
 |**22**| OUTLIERS DETECTION|Defination of outliers detection and description of the outliers' impact for machinlearning algorithm. Techniques are to be discussed in other files with the code example. |
 |**23(22)**| Z-SCORE METHOD|Defination and the descreption of the z-score method for the outliers detection. Use of the z-score method to find the outliers|
+|**24(22)**| IQR METHOD|Defination and the descreption of the IQR method for the outliers detection. Use of the trimming and capping  method to remove the outliers|
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
