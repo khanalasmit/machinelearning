@@ -27,5 +27,6 @@
 |**23(22)**| Z-SCORE METHOD|Defination and the descreption of the z-score method for the outliers detection. Use of the z-score method to find the outliers|
 |**24(22)**| IQR METHOD|Defination and the descreption of the IQR method for the outliers detection. Use of the trimming and capping  method to remove the outliers|
 |**25(22)**| PERCENTILE METHOD|Defination and the descreption of the percentile method for the outliers detection. Use of the **trimming** and **winsorization**  method to remove the outliers|
+|**26**| DENSITY CLUSTERING|Use of the **DBSCAN** algorithm for the density based clustering. <br>1.Use of the sklearn datasets for the density clustering:<br> ```sklearn.clustering.DBSCAN(epsilon,min_samples)``` <br>2. Implementation of the DBSCAN without using sklearn methods.|
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
