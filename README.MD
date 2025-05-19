@@ -30,5 +30,6 @@
 |**26**| DENSITY CLUSTERING|Use of the **DBSCAN** algorithm for the density based clustering. <br>1.Use of the sklearn datasets for the density clustering:<br> ```sklearn.clustering.DBSCAN(epsilon,min_samples)``` <br>2. Implementation of the DBSCAN without using sklearn methods.|
 |**27**| FEATURE CONSTRUCTION|Constructing the new features from the data by combing the features and splitting the features known as feature splitting.|
 |**28**| CURSE OF DIMENSIONALITY|Description of curse of dimesinality<br>1. Discussion on what happens when dimesnionality increases|
+|**29**| PCA|Description of the pca<br>-defination of pca -advantages -wroking mechanism -explaination of the math involve -desctiption of eigen vectors -description of eigen values -desctiption of linear algebra -desription of covarience matrix -pca to transform ```MINSET``` data |
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
