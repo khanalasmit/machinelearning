@@ -31,5 +31,8 @@
 |**27**| FEATURE CONSTRUCTION|Constructing the new features from the data by combing the features and splitting the features known as feature splitting.|
 |**28**| CURSE OF DIMENSIONALITY|Description of curse of dimesinality<br>1. Discussion on what happens when dimesnionality increases|
 |**29**| PCA|Description of the pca<br>-defination of pca -advantages -wroking mechanism -explaination of the math involve -desctiption of eigen vectors -description of eigen values -desctiption of linear algebra -desription of covarience matrix -pca to transform ```MINSET``` data |
+|**30**|SIMPLE LINEAR REGRESSION|Description of linear regression,<br>- Mathematical model of the linear regression <br> - intution code on simple linear regression <br> - code from scratch to make a liner regression model |
+|**31**| REGRESSION METRICS|- Desciption of the regression metrics <br> -description of mean abosolute error, mean squared error , root mean squared error,r2 score,adjusted r2 score <br> - Advanteages and disadvantages of each model <br> -description of adjusted r2 score with  |
+
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
