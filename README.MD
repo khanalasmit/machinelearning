@@ -33,6 +33,8 @@
 |**29**| PCA|Description of the pca<br>-defination of pca -advantages -wroking mechanism -explaination of the math involve -desctiption of eigen vectors -description of eigen values -desctiption of linear algebra -desription of covarience matrix -pca to transform ```MINSET``` data |
 |**30**|SIMPLE LINEAR REGRESSION|Description of linear regression,<br>- Mathematical model of the linear regression <br> - intution code on simple linear regression <br> - code from scratch to make a liner regression model |
 |**31**| REGRESSION METRICS|- Desciption of the regression metrics <br> -description of mean abosolute error, mean squared error , root mean squared error,r2 score,adjusted r2 score <br> - Advanteages and disadvantages of each model <br> -description of adjusted r2 score with  |
+|**32**| MULTIPLE LINEAR REGRESSION|- Descriptionof multiple liner regresion
+<br> - code for intution <br> - mathematical derivation of the multiple linear regression <br> - code from scartch using the mathematical formula <br> - comparsion of the sklearn model and the self built model|
 
 <br>
 Note:pickle notebook is to open the models that are exported using the pickle
