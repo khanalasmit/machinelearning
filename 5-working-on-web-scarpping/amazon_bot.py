@@ -45,10 +45,10 @@ class Amazon_bot:
 
     def amazon_bot(self):
         self.driver.get(self.url)
-        time.sleep(20)
         self.send_to_search()
         html = self.get_items()
         self.htmls.append(html)
+        time.sleep(30)
         while self.send_next_key():
             html = self.get_items()
             self.htmls.append(html)
