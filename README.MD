@@ -40,6 +40,49 @@
 |**36**| BIAS-VARIANCE TRADEOFF | - Explanation of the bias-variance tradeoff in machine learning.<br>- Demonstration of how model complexity affects bias, variance, and loss.<br>- Visualization of bias, variance, and loss as a function of model parameters.<br>- Code examples and plots in `bias_varience_tradeoff.ipynb`.|
 |**37**| RIDGE REGRESSION | - Introduction to Ridge Regression and its mathematical formulation.<br>- Implementation from scratch and using scikit-learn.<br>- Explanation of the effect of the regularization parameter $\lambda$ (alpha) on coefficients.<br>- Gradient descent approach for Ridge Regression.<br>- Ridge regression for multi-dimensional data.<br>- Bias-variance tradeoff visualization for Ridge Regression.<br>- All code and explanations in the `37-Ridge_regresssion` folder.|
 |**38**| LASSO REGRESSION | - Introduction to Lasso Regression and its sparsity property.<br>- Mathematical derivation of the Lasso solution.<br>- Implementation and intuition behind Lasso.<br>- Key points and visualizations showing how Lasso drives coefficients to zero.<br>- All code and explanations in the `38-lasso_regression` folder.|
-|**39**| LOGISTIC REGRESSION & PERCEPTRON | - Implementation of the Perceptron algorithm from scratch.<br>- Visualization and animation of the decision boundary during training.<br>- Comparison with scikit-learn's Logistic Regression.<br>- Code for both Perceptron and Logistic Regression in `40-Logistic_Regression/perceptron_code.ipynb`.<br>- Animation of the perceptron learning process (`animation.gif`).|
+|**39**| ELASTIC NET REGRESSION | - Implementation of Elastic Net as a combination of Ridge and Lasso regularization.<br>- Mathematical formulation combining L1 and L2 penalties.<br>- Comparison with Ridge and Lasso regression.<br>- Parameter tuning for alpha and l1_ratio.<br>- Code examples showing the balance between Ridge and Lasso properties.|
+|**40**| LOGISTIC REGRESSION & PERCEPTRON | - Implementation of the Perceptron algorithm from scratch.<br>- Visualization and animation of the decision boundary during training.<br>- Comparison with scikit-learn's Logistic Regression.<br>- Sigmoid function implementation and visualization.<br>- Gradient descent for logistic regression.<br>- Loss function analysis for classification.<br>- Code for both Perceptron and Logistic Regression in `40-Logistic_Regression/perceptron_code.ipynb`.<br>- Animation of the perceptron learning process (`animation.gif`).|
+|**41**| CLASSIFICATION METRICS | - Comprehensive overview of classification evaluation metrics.<br>- Implementation and explanation of accuracy, precision, recall, F1-score.<br>- Confusion matrix visualization and interpretation.<br>- ROC curves and AUC calculation.<br>- Precision-Recall curves for imbalanced datasets.<br>- Code examples demonstrating each metric with real datasets.|
+|**42**| SOFTMAX REGRESSION | - Implementation of Softmax Regression for multi-class classification.<br>- Mathematical formulation of softmax function.<br>- Comparison with logistic regression for binary vs multi-class problems.<br>- Hyperparameter tuning and optimization.<br>- Polynomial features integration with softmax.<br>- Code examples with visualization of decision boundaries.|
+|**43**| DECISION TREES | - Mathematical foundation of decision tree algorithms.<br>- Information gain, entropy, and Gini impurity calculations.<br>- Implementation of decision tree from scratch.<br>- Tree visualization using dtreeviz and plot_tree.<br>- Hyperparameter tuning: max_depth, min_samples_split, etc.<br>- Geometric intuition behind decision tree splits.<br>- Regression trees implementation and comparison.<br>- Handling overfitting in decision trees.|
+|**44**| ENSEMBLE LEARNING - VOTING & BAGGING | - Introduction to ensemble methods and their advantages.<br>- **Voting Classifiers:** Hard voting vs soft voting, weighted voting with different classifier weights.<br>- **Bagging:** Bootstrap Aggregating implementation, BaggingClassifier with different base estimators (Decision Trees, SVM).<br>- Comparison between bagging and pasting (without replacement).<br>- Random subspaces and random patches methods.<br>- Out-of-bag (OOB) score evaluation.<br>- Grid search for optimal bagging hyperparameters.<br>- Hyperparameter documentation for sklearn voting methods.|
+|**45**| RANDOM FOREST | - Implementation and intuition behind Random Forest algorithm.<br>- Differences between Random Forest and Bagging.<br>- Feature importance calculation and visualization.<br>- Out-of-bag (OOB) score analysis.<br>- Hyperparameter tuning for Random Forest.<br>- Why Random Forest works: variance reduction and decorrelation.<br>- Comparison with individual decision trees and bagging.|
+|**46**| ADABOOST | - Mathematical foundation of Adaptive Boosting algorithm.<br>- Step-by-step implementation of AdaBoost from scratch using decision stumps.<br>- Weight updating mechanism for misclassified samples.<br>- Alpha calculation for model weights based on error rates.<br>- Ensemble prediction using weighted majority voting.<br>- Comparison with scikit-learn's AdaBoostClassifier.<br>- Hyperparameter analysis and tuning.<br>- Difference between AdaBoost and other ensemble methods.|
+|**47**| K-MEANS CLUSTERING | - Implementation of K-Means algorithm from scratch.<br>- Centroid initialization and iterative update mechanisms.<br>- Distance calculation and cluster assignment.<br>- Elbow method for optimal k selection using WCSS.<br>- WCSS (Within-Cluster Sum of Squares) calculation and plotting.<br>- Visualization of clusters and centroids.<br>- Convergence criteria and algorithm optimization.<br>- Introduction to clustering concepts and applications.|
+
 <br>
-Note:pickle notebook is to open the models that are exported using the pickle
+
+**Note:** The pickle notebook is used to open models that are exported using the pickle module for model persistence and deployment.
+
+---
+
+## 📊 Progress Summary
+
+- **Total Topics Covered:** 47
+- **Core Areas:**
+  - **Data Preprocessing:** Feature engineering, encoding, scaling, missing data handling, outlier detection
+  - **Dimensionality Reduction:** PCA, curse of dimensionality
+  - **Regression:** Linear, polynomial, ridge, lasso, elastic net
+  - **Classification:** Logistic regression, softmax regression, decision trees
+  - **Ensemble Methods:** Voting, bagging, random forest, AdaBoost
+  - **Clustering:** K-means, DBSCAN
+  - **Evaluation Metrics:** Regression and classification metrics
+  - **Optimization:** Gradient descent variants (batch, stochastic, mini-batch)
+
+## 🎯 Key Skills Developed
+
+- **Mathematical Understanding:** Deep dive into algorithm mathematics and derivations
+- **Implementation Skills:** Building algorithms from scratch alongside sklearn usage
+- **Visualization:** Comprehensive plotting for model interpretation and analysis
+- **Practical Application:** Real-world dataset analysis and model evaluation
+- **Hyperparameter Tuning:** Grid search and optimization techniques
+- **Model Comparison:** Systematic evaluation of different approaches
+
+## 🚀 Advanced Topics Covered
+
+- **Ensemble Learning:** Multiple ensemble strategies and their trade-offs
+- **Regularization Techniques:** L1, L2, and elastic net penalties
+- **Bias-Variance Tradeoff:** Understanding model complexity and generalization
+- **Feature Engineering:** Construction, selection, and transformation techniques
+- **Clustering Analysis:** Unsupervised learning and pattern recognition## 📘 Machine Learning from Beginning ##
+
